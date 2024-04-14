@@ -15,7 +15,7 @@ function ExibirNaTela(tag, texto) { // Os parametros nos parenteses ajuda a reut
 //função com parametros//
 
 ExibirNaTela('h1', 'Jogo do numero Secreto'); // H1 subtituido por "tag" e a frase por "texto"
-ExibirNaTela('p', 'Escolha um numero de 0 à 10.') // Mesma coisa do que de cima 
+ExibirNaTela('p', 'Escolha um numero de 1 à 100.') // Mesma coisa do que de cima 
 
 let listadeNumerosSorteados = [];
 let numeroLimite = 10;
@@ -58,7 +58,7 @@ function Reiniciar() {
 }
 function MensagemInicial() {
     ExibirNaTela('h1', 'Jogo do numero Secreto');
-    ExibirNaTela('p', 'Escolha um numero de 1 à 10.');
+    ExibirNaTela('p', 'Escolha um numero de 1 à 100.');
 }
     
 //Função com return//
