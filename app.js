@@ -78,3 +78,4 @@ function GerarNumeroAleatorio() {  // Gerar um numero aleatorio usando expressõ
      }
 }
 // função com return //
+//testando a integração do git no vscode//
