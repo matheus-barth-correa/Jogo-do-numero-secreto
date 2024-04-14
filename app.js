@@ -18,7 +18,7 @@ ExibirNaTela('h1', 'Jogo do numero Secreto'); // H1 subtituido por "tag" e a fra
 ExibirNaTela('p', 'Escolha um numero de 1 à 100.') // Mesma coisa do que de cima 
 
 let listadeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = GerarNumeroAleatorio();
 let tentativa = 0;
 let palavratentativa = tentativa > 1 ? 'tentativa' : 'tentativas' ; // se a variavel tentativa vai receber tentativas se não for, vai receber tentativa, no plural.
